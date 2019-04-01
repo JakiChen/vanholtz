@@ -828,7 +828,7 @@ text-stroke:1px #151515
 }
 }
 body.ultra-mode {
-    background-color: #4801ff
+    background-color: #ff3322
 }
 body.ultra-mode.journal-page #barba-wrapper:after {
     content: "";
@@ -839,7 +839,7 @@ body.ultra-mode.journal-page #barba-wrapper:after {
     z-index: 9999;
     width: 100%;
     height: 100%;
-    background: #4801ff;
+    background: #ff3322;
     mix-blend-mode: color
 }
 body.ultra-mode.journal-page.safari #barba-wrapper:after {
@@ -853,7 +853,7 @@ body.ultra-mode.journal-page #barba-wrapper:after {
 }
 }
 body.ultra-mode .curtain {
-    background-color: #4801ff!important
+    background-color: #ff3322!important
 }
 body.ultra-mode .content {
     opacity: 1;
@@ -861,14 +861,14 @@ body.ultra-mode .content {
 }
 @supports (-webkit-text-stroke:1px #000) or (text-stroke:1px #000) {
 body.ultra-mode:not(.home-page) .ui.outline .logo:hover {
-color:#4801ff
+color:#ff3322
 }
 }
 body.ultra-mode:not(.home-page).aboutShow .content {
     opacity: .1
 }
 body.ultra-mode .about:before {
-    background-color: rgba(72,1,255,.85)
+    background-color: rgba(255,51,34,.85)
 }
 body.ultra-mode .logo {
     color: #fff
@@ -881,16 +881,16 @@ text-stroke:1px #fff
 }
 
 @media screen and (min-width:768px) {
-@supports (-webkit-text-stroke:1px #fff) or (text-stroke:1px #fff) {
-body.ultra-mode .logo:hover {
-color:#4801ff
-}
-}
+	@supports (-webkit-text-stroke:1px #fff) or (text-stroke:1px #fff) {
+		body.ultra-mode .logo:hover {
+			color:#ff3322
+		}
+	}
 }
 
 @media screen and (max-width:767px) {
 body.ultra-mode .ui .info {
-    background-color: rgba(72,1,255,.85)
+    background-color: rgba(255,51,34,.85)
 }
 }
 @supports (-webkit-text-stroke:3px #000) or (text-stroke:3px #000) {
@@ -942,7 +942,7 @@ text-stroke:1px #151515
 }
 }
 body.ultra-mode.work-page .case-study .hero:after {
-    background-color: #4801ff
+    background-color: #ff3322
 }
 body.ultra-mode .flickity-page-dots .dot {
     background-color: #000
@@ -950,7 +950,7 @@ body.ultra-mode .flickity-page-dots .dot {
 
 @media screen and (max-width:767px) {
 body.ultra-mode .module-copy-image .image:after {
-    background: linear-gradient(0deg, #4801ff 0, rgba(72,1,255,0))
+    background: linear-gradient(0deg, #ff3322 0, rgba(72,1,255,0))
 }
 body.ultra-mode .project-name {
     font-size: 40px
@@ -2505,12 +2505,12 @@ body.uiHover:not(.aboutShow) .ui .copyright {
 }
 .ui .color-mode .circle:before {
     border: 4px solid transparent;
-    border-top: 4px solid #4801ff;
+    border-top: 4px solid #ff3322;
     transform: rotate(60deg)
 }
 .ui .color-mode .circle:after {
     border: 4px solid transparent;
-    border-top: 4px solid #4801ff;
+    border-top: 4px solid #ff3322;
     transform: rotate(30deg)
 }
 .ui .color-mode .dot {
@@ -2535,7 +2535,7 @@ body.uiHover:not(.aboutShow) .ui .copyright {
 }
 .ui .color-mode.ultra .dot {
     transform: translate3d(-50%, -50%, 0);
-    background-color: #4801ff
+    background-color: #ff3322
 }
 .ui .color-mode button {
     cursor: pointer;
